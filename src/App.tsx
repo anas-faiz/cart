@@ -1,9 +1,9 @@
-import Cart from "./component/cart"
+import Product from "./component/Product"
 
 function App(){
   return (
     <div className="text-5xl">
-      <Cart/>
+      <Product/>
     </div>
   )
 }

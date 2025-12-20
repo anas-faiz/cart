@@ -1,9 +1,10 @@
 import CartItems from "./CartItems"
 
-const Cart = ()=> {
+function Cart (){
 
-    return (        
-        <div className="flex items-center justify-center">
+    return (
+
+        <div>
             <CartItems/>
         </div>
     )
