@@ -6,7 +6,7 @@ const ProductList = () => {
   return (
     <div>
       {items.map((i) => (
-        <div key={i.id} className="flex justify-between border m-1 bg-blue-500 p-1 m-1">
+        <div key={i.id} className="flex justify-between border bg-blue-500 p-1 m-1">
           <div>
             <p>{i.name}</p>
             <p>{i.price}</p>
