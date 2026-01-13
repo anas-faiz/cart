@@ -1,6 +1,5 @@
 import type { ProductType } from "./types";
 
-
 export const products: ProductType[] = [
   {
     id: "p1",
